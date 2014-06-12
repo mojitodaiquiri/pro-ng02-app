@@ -16,5 +16,6 @@ version = "1.0.0">
 	<gap:splash src="phonegapassets/images/splash-ipad.png" width="768" height="1024" />
 	
 	<icon src="phonegapassets/images/icon.png" gap:role="default" />
-	
+	<access origin="http://127.0.0.1*" />
+    <content src="index.html" />
 </widget>
