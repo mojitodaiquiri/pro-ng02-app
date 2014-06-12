@@ -4,10 +4,7 @@
 var soUtente=false;
 
 var defaultRout = function(){
-	if (soUtente)
 		return "/sesapp/login";
-	else
-		return "/sesapp/wait";
 };
 
 
