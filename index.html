@@ -186,7 +186,23 @@
 	<!-- application script for Charisma demo --> 
 	<script src="app/lib/charisma-js/charisma.js"></script>
 	
-	
+	<script type="text/javascript">
+			var app = {
+			initialize: function() {
+				this.bindEvents();
+			},
+			bindEvents: function() {
+				document.addEventListener('deviceready', this.onDeviceReady, true);
+			},
+
+			onDeviceReady: function() {
+				angular.element(document).ready(function() {
+					angular.bootstrap(document);
+				});
+			},
+		};
+        app.initialize();
+    </script>
 	
 		
 </body>
