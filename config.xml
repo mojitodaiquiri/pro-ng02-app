@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.selexes.mobile.prong02"
+versionCode="10"
+version = "1.0.0">
+
+	<!-- versionCode is optional and Android only -->
+
+	<name>proNg-02</name>
+	<description>Prova app da angular.</description>
+	<author href="http://selex-es.com" email="gianni.dimarco@selex-es.com">Gianni Di Marco</author>
+	<gap:splash src="phonegapassets/images/splash.png" />
+	<gap:splash src="phonegapassets/images/splash.png" width="320" height="480" />
+	<gap:splash src="phonegapassets/images/splash2x.png" width="640" height="960" />
+	<gap:splash src="phonegapassets/images/splash-ipad.png" width="768" height="1024" />
+	
+	<icon src="phonegapassets/images/icon.png" gap:role="default" />
+	
+</widget>
